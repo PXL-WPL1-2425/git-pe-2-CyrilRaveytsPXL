@@ -4,6 +4,8 @@
 }
 .navigatie {
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .structuur-element, .structuur-element3 {
@@ -38,4 +40,12 @@ a.singin {
     color: black;
     background-color: red;
     border-radius: 20px;
+}
+video {
+    width: 100vw;
+    height: 850px;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+
 }
